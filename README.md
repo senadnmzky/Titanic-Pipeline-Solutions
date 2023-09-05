@@ -27,16 +27,19 @@ In my project, I employed a well-structured pipeline to ensure a systematic and 
 **Modeling:** Leveraging various algorithms, including Gradient Boosting, Support Vector Machine, Logistic Regression, Random Forest, and more.
 **Feature Importance:** Conducted feature importance analysis to identify the key drivers behind survival predictions.
 
-                  Training Accuracy	Test Accuracy	Best Params
-Random Forest	0.886644	0.751196	{'classifier__max_depth': 30, 'classifier__n_e...
-Gradient Boosting	0.855219	0.751196	{'classifier__learning_rate': 0.01, 'classifie...
-SVM	0.835017	0.751196	{'classifier__C': 10, 'classifier__kernel': 'l...
-Logistic Regression	0.835017	0.746411	{'classifier__C': 50}
-Perceptron	0.804714	0.736842	{'classifier__max_iter': 100}
-KNN	0.857464	0.732057	{'classifier__n_neighbors': 7}
-Decision Tree	0.857464	0.729665	{'classifier__max_depth': 5}
-Naive Bayes	0.778900	0.705742	{}
-SGD	0.785634	0.693780	{'classifier__loss': 'hinge', 'classifier__max...
+
+|| Training Accuracy	Test | Test Accuracy |Best Params|
+|:---|:---| --- | ---|
+| Random Forest | 0.886644 | 0.751196 |{'classifier__max_depth': 30, 'classifier__n_e...|
+| Gradient Boosting | 	0.855219 | 0.751196 | {'classifier__learning_rate': 0.01, 'classifie...|
+| SVM      | 0.835017 | 0.751196  | {'classifier__C': 10, 'classifier__kernel': 'l...|
+| Logistic Regression      |0.835017 | 0.746411 | {'classifier__C': 50}|
+| Perceptron	   | 0.804714 | 0.736842 | {'classifier__max_iter': 100}|
+| KNN	   | 0.857464	|0.732057 | {'classifier__n_neighbors': 7}|
+| Decision Tree   | 0.857464 | 0.729665 | {'classifier__max_depth': 5}|
+| Naive Bayes	   | 0.778900	| 0.705742 | {}|
+| SGD	   | 0.785634	| 0.693780 |{'classifier__loss': 'hinge', 'classifier__max...|
+
 
 🔍 **Feature Importance:**
 Digging deeper into our models, we unveiled the real stars of the show—the top five factors that significantly influenced survival predictions:
