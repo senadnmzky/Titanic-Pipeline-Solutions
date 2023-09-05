@@ -1,5 +1,6 @@
 # Titanic-Pipeline-Solutions
 Titanic Data Science Pipeline Solutions 
+![TItanic-Survival-Infographic](https://github.com/senadnmzky/Titanic-Pipeline-Solutions/assets/56525534/dc190765-eadb-4844-bbd7-24f0f2bda94d)
 
 
 |Variable| Definition | Field values |
